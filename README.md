@@ -7,3 +7,4 @@ When you listen to one of his pieces, he has an unmistakable sound. It tends to 
 So here’s to John Williams, one of the greatest composers in film history.
 
 # Citations
+* Superman Theme by John Williams
