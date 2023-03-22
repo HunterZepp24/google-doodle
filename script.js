@@ -1,10 +1,10 @@
 // Check JS is Connected
 console.log('JS Connected');
 
-let tl1 = gsap.timeline({ repeat: -1, repeatDelay: 5.5 });
-let tl2 = gsap.timeline({ repeat: -1, repeatDelay: 2.5 });
-let tl3 = gsap.timeline({ repeat: -1, repeatDelay: 1.5 });
-let tl4 = gsap.timeline({ repeat: -1, repeatDelay: 2.5 });
+let tl1 = gsap.timeline({ repeat: -1, repeatDelay: 9 });
+let tl2 = gsap.timeline({ repeat: -1, repeatDelay: 5 });
+let tl3 = gsap.timeline({ repeat: -1, repeatDelay: 5 });
+let tl4 = gsap.timeline({ repeat: -1, repeatDelay: 4 });
 
 tl1
   .fromTo(
@@ -71,7 +71,7 @@ tl2
   .to(".superman-standing-1", {
     opacity: 0,
     duration: 0,
-    delay: 3.5
+    delay: 4.5
   })
   .to(".superman-flight", {
     opacity: 1,
@@ -139,7 +139,7 @@ tl4
     duration: 0.1,
     x: 40,
     y: 75,
-    delay: 8.5,
+    delay: 10.4,
     ease: "none"
   })
   .from(
